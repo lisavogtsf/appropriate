@@ -1,11 +1,15 @@
 const {ccclass, property} = cc._decorator;
 @ccclass
 export default class MouseScript extends cc.Component {
+    @property
+    nextScene : string = "opening-scene"
+
     onLoad () {
         this.node.on(cc.Node.EventType.MOUSE_DOWN,(e:cc.Event.EventMouse)=>{
             console.log("Mouse down on top of selected node");
+            console.log("correct next scene? this.nextScene: ", this.nextScene)
+            cc.director.loadScene(this.nextScene)
             e.bubbles = false; // Handled event don't let it propogate!
-            cc.director.loadScene("outcome-scene")
         });
         this.node.on(cc.Node.EventType.MOUSE_LEAVE,(e:cc.Event.EventMouse)=>{
             console.log("Mouse no longer over " + e.currentTarget.name);
