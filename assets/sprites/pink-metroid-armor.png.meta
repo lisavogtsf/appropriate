@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.0",
+  "uuid": "5b7a259f-3212-4e56-a5f9-23b2fe887d90",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "pink-metroid-armor": {
+      "ver": "1.0.3",
+      "uuid": "aca476c7-5c57-44f9-9ee5-9215c5f6b8a6",
+      "rawTextureUuid": "5b7a259f-3212-4e56-a5f9-23b2fe887d90",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -4.5,
+      "trimX": 30,
+      "trimY": 25,
+      "width": 18,
+      "height": 39,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
