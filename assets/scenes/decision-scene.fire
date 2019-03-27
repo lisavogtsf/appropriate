@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.33956705729166664,
-      "y": 0.33956705729166664,
-      "z": 0.33956705729166664
+      "x": 0.4197591145833333,
+      "y": 0.4197591145833333,
+      "z": 0.4197591145833333
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -83,13 +83,16 @@
       },
       {
         "__id__": 14
+      },
+      {
+        "__id__": 17
       }
     ],
     "_active": true,
     "_level": 1,
     "_components": [
       {
-        "__id__": 17
+        "__id__": 20
       }
     ],
     "_prefab": null,
@@ -408,7 +411,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Instructions details",
+    "_name": "scenario details",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -432,8 +435,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 531.37,
-      "height": 80
+      "width": 636.7,
+      "height": 120
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -442,8 +445,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -3,
-      "y": -225,
+      "x": 0,
+      "y": -232,
       "z": 0
     },
     "_scale": {
@@ -479,8 +482,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "Click on the most appropriate \noutfit to choose it.",
-    "_N$string": "Click on the most appropriate \noutfit to choose it.",
+    "_string": "You are a tomboy attending a family\n wedding, and your mother has\ntold you to be sure to dress nicely.",
+    "_N$string": "You are a tomboy attending a family\n wedding, and your mother has\ntold you to be sure to dress nicely.",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -532,8 +535,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -65,
-      "y": 0,
+      "x": 45,
+      "y": -2,
       "z": 0
     },
     "_scale": {
@@ -636,8 +639,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 132,
-      "y": 0,
+      "x": 296,
+      "y": 12,
       "z": 0
     },
     "_scale": {
@@ -700,6 +703,110 @@
     "_enabled": true,
     "nextScene": "outcome-scene",
     "_id": "edsfV6qJtHzrdtkMAjR+EB"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "outfit-suit",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 2,
+    "_components": [
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 19
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 581,
+      "height": 1172
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -215,
+      "y": -2,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 0.17,
+      "y": 0.17,
+      "z": 1
+    },
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "_is3DNode": false,
+    "groupIndex": 0,
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_id": "baOS3RzY1Mm40plEbqUG1L"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "a4ab3797-ff46-4176-a69e-69c297a0b305"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 2,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_state": 0,
+    "_atlas": null,
+    "_id": "d5qNjDpWtEqpmneLDE8dYZ"
+  },
+  {
+    "__type__": "1dac5O7q5pCap0kemn4xnX+",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": true,
+    "nextScene": "outcome-scene",
+    "_id": "1fz52LyLlM5ZOWsFGlo1w9"
   },
   {
     "__type__": "cc.Canvas",
