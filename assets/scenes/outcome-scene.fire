@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.23644331301001484,
-      "y": 0.23644331301001484,
-      "z": 0.23644331301001484
+      "x": 0.3375,
+      "y": 0.3375,
+      "z": 0.3375
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -230,7 +230,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bg-3",
+    "_name": "bg-2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -244,7 +244,7 @@
       }
     ],
     "_prefab": null,
-    "_opacity": 255,
+    "_opacity": 155,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
@@ -254,8 +254,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 288,
-      "height": 256
+      "width": 240,
+      "height": 176
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -270,8 +270,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 3.37,
-      "y": 3.37,
+      "x": 4.1,
+      "y": 3.8,
       "z": 1
     },
     "_quat": {
@@ -286,7 +286,7 @@
     "_zIndex": 0,
     "_is3DNode": false,
     "groupIndex": 0,
-    "_id": "1e9fziUOpFc7AcnL5QYB2f"
+    "_id": "6ei0vT4vBHEo6Sm4zG922D"
   },
   {
     "__type__": "cc.Sprite",
@@ -299,7 +299,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "31cf8962-577f-4310-af8b-bf9053ab8587"
+      "__uuid__": "41c3c2aa-f759-4b3a-85d8-e7125f6328e1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -314,7 +314,7 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
-    "_id": "d1W/oX0b5PIZpTIoO4NK86"
+    "_id": "32j2hgcstMJZ+DYGLhn2Gz"
   },
   {
     "__type__": "cc.Node",
@@ -335,14 +335,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 197.91,
+      "width": 186.05,
       "height": 40
     },
     "_anchorPoint": {
@@ -353,7 +353,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": -15,
-      "y": 133,
+      "y": 200,
       "z": 0
     },
     "_scale": {
@@ -389,9 +389,9 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "Judgement",
-    "_N$string": "Judgement",
-    "_fontSize": 40,
+    "_string": "Game Over",
+    "_N$string": "Game Over",
+    "_fontSize": 36,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -422,14 +422,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 839.06,
+      "width": 814.63,
       "height": 80
     },
     "_anchorPoint": {
@@ -476,8 +476,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "- You did not choose the most appropriate outfit\n- You did not please everyone",
-    "_N$string": "- You did not choose the most appropriate outfit\n- You did not please everyone",
+    "_string": "You did not choose the most appropriate outfit\nYou did not please everyone",
+    "_N$string": "You did not choose the most appropriate outfit\nYou did not please everyone",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -512,9 +512,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 192,
-      "g": 241,
-      "b": 201,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
@@ -588,6 +588,7 @@
       "__id__": 11
     },
     "_enabled": true,
+    "nextScene": "opening-scene",
     "_id": "da2XEGgKFC+7guPckycnap"
   },
   {

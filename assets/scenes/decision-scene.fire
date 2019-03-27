@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4197591145833333,
-      "y": 0.4197591145833333,
-      "z": 0.4197591145833333
+      "x": 0.3375,
+      "y": 0.3375,
+      "z": 0.3375
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -236,7 +236,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bg-2",
+    "_name": "bg-3",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -260,8 +260,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 240,
-      "height": 176
+      "width": 288,
+      "height": 256
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -276,8 +276,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 4,
-      "y": 4,
+      "x": 3.3,
+      "y": 3.3,
       "z": 1
     },
     "_quat": {
@@ -292,7 +292,7 @@
     "_zIndex": 0,
     "_is3DNode": false,
     "groupIndex": 0,
-    "_id": "bd6JFj9aRBKbUgk85bi5dq"
+    "_id": "014F6yjR1B2pSJ/YQnrC99"
   },
   {
     "__type__": "cc.Sprite",
@@ -305,7 +305,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "41c3c2aa-f759-4b3a-85d8-e7125f6328e1"
+      "__uuid__": "31cf8962-577f-4310-af8b-bf9053ab8587"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -320,7 +320,7 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
-    "_id": "5dYGXrCTxPUaktktlxMxLe"
+    "_id": "2f1vmLigpLubxz31Xn9QBW"
   },
   {
     "__type__": "cc.Node",
@@ -428,9 +428,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 22,
-      "g": 22,
-      "b": 82,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
@@ -535,7 +535,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 45,
+      "x": 0,
       "y": -2,
       "z": 0
     },
@@ -639,7 +639,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 296,
+      "x": 250,
       "y": 12,
       "z": 0
     },
@@ -743,7 +743,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -215,
+      "x": -250,
       "y": -2,
       "z": 0
     },
